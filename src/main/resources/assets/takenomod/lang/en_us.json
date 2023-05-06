@@ -1,3 +1,6 @@
 {
-  "item.takenomod.hand": "Hand"
+  "item.takenomod.hand": "Hand",
+  "item.takenomod.hand_left": "Left Hand",
+
+  "item.takenomod.hand_block": "Hand Block"
 }

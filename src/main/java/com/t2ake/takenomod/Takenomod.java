@@ -1,6 +1,7 @@
 package com.t2ake.takenomod;
 
 import com.mojang.logging.LogUtils;
+import com.t2ake.takenomod.block.ModBlocks;
 import com.t2ake.takenomod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -21,7 +22,10 @@ public class Takenomod
     public Takenomod()
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
         eventBus.addListener(this::setup);
 
 

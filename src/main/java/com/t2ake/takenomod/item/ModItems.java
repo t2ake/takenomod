@@ -1,6 +1,7 @@
 package com.t2ake.takenomod.item;
 
 import com.t2ake.takenomod.Takenomod;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,6 +16,10 @@ public class ModItems {
     public static final RegistryObject<Item> HAND = ITEMS.register("hand",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
+    public static final RegistryObject<Item> HAND_LEFT = ITEMS.register("hand_left",
+            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+
+//    public static final RegistryObject<BlockItem> HAND_BLOCK =
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
