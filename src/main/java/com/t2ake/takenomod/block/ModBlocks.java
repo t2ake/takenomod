@@ -1,6 +1,7 @@
 package com.t2ake.takenomod.block;
 
 import com.t2ake.takenomod.Takenomod;
+import com.t2ake.takenomod.item.ModCreativeModeTab;
 import com.t2ake.takenomod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,8 +21,15 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, Takenomod.MOD_ID);
 
     public static  final RegistryObject<Block> HAND_BLOCK = registerBlock("hand_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(0.2f)), ModCreativeModeTab.TAKENOMOD_TAB);
+
+    public static  final RegistryObject<Block> ONE_HAND_BLOCK = registerBlock("one_hand_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(0.1f)), ModCreativeModeTab.TAKENOMOD_TAB);
+    public static  final RegistryObject<Block> TWO_HAND_BLOCK = registerBlock("two_hand_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(0.15f)), ModCreativeModeTab.TAKENOMOD_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn =BLOCKS.register(name, block);

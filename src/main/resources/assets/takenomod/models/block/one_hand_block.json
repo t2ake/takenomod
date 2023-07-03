@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "takenomod:block/one_hand_block"
+  }
+}

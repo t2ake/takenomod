@@ -2,5 +2,7 @@
   "item.takenomod.hand": "Hand",
   "item.takenomod.hand_left": "Left Hand",
 
-  "item.takenomod.hand_block": "Hand Block"
+  "item.takenomod.hand_block": "Hand Block",
+  "item.takenomod.one_hand_block": "One Hand Block",
+  "item.takenomod.two_hand_block": "Two Hand Block"
 }
