@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "takenomod:hand"
+    }
+  },
+  "result": {
+    "item": "takenomod:one_hand_block"
+  }
+}

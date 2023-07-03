@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "takenomod:left_hand"
+    }
+  },
+  "result": {
+    "item": "takenomod:hand"
+  }
+}

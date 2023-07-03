@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "takenomod:two_hand_block"
+    }
+  ],
+  "result": {
+    "item": "takenomod:one_hand_block",
+    "count": 9
+  }
+}
